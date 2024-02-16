@@ -2,6 +2,12 @@ const DMX = require('./api');
 
 DMX.setLength(10);
 
+DMX.setColor(1, 2, 255, 255, 255);
+DMX.setColor(1, 9, 255, 255, 255);
+
+DMX.add(1, 2, 1, 1, 0)
+DMX.add(1, 2, 8, 1, 0)
+
 /*
     API:
     DMX.add(

@@ -2,6 +2,62 @@
   "duration": 10,
   "data": [
     {
+      "start": 1,
+      "duration": 1,
+      "channel": 2,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 1,
+      "duration": 1,
+      "channel": 3,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 1,
+      "duration": 1,
+      "channel": 4,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 1,
+      "duration": 1,
+      "channel": 9,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 1,
+      "duration": 1,
+      "channel": 10,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 1,
+      "duration": 1,
+      "channel": 11,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 1,
+      "duration": 2,
+      "channel": 1,
+      "from": 1,
+      "to": 0
+    },
+    {
+      "start": 1,
+      "duration": 2,
+      "channel": 8,
+      "from": 1,
+      "to": 0
+    },
+    {
       "start": 500,
       "duration": 1,
       "channel": 2,
