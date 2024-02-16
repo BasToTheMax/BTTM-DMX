@@ -103,4 +103,4 @@ for(let i = 0; i <= length; i++) {currentTime
     currentTime++;
 }
 
-fs.writeFileSync(`./dmx/${id}.json`, JSON.stringify(newData, null, 2));
+fs.writeFileSync(`./dmx/${id}.json`, JSON.stringify(newData));
