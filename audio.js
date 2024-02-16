@@ -70,8 +70,8 @@ for (let i = 0; i < 20; i++) {
     DMX.setColorFade(12_600 + (i*100), 2, 100,  255,     0,     0);
     DMX.setColorFade(12_600 + (i*100), 9, 100,  0,       0,     255);
 
-    DMX.setColorFade(12_600 + (i*200), 2, 100,  0,     0,     255);
-    DMX.setColorFade(12_600 + (i*200), 9, 100,  255,       0,     0);
+    DMX.setColorFade(12_700 + (i*100), 2, 100,  0,     0,     255);
+    DMX.setColorFade(12_700 + (i*100), 9, 100,  255,       0,     0);
 }
 
 // DMX.setColorFade(12_600, 2, 100,  255,     0,     0);
