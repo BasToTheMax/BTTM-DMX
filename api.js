@@ -73,5 +73,10 @@ DMX.setColor = (start, channel, r, g, b) => {
     DMX.add(start, 1, channel+1, 0, g);
     DMX.add(start, 1, channel+2, 0, b);
 }
+DMX.setColorFade = (start, channel, duration, r, g, b) => {
+    DMX.add(start, duration, channel, 0, r);
+    DMX.add(start, duration, channel+1, 0, g);
+    DMX.add(start, duration, channel+2, 0, b);
+}
 
 module.exports = DMX;
