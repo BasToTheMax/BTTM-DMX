@@ -60,11 +60,23 @@ DMX.setColorFade(8400, 9, 100,  0,       0,     255);
 DMX.setColorFade(10_200, 2, 100,  0,     0,     255);
 DMX.setColorFade(10_200, 9, 100,  255,       0,     0);
 
-DMX.add(11_400, 1000, 1, 255, 0)
-DMX.add(11_400, 1000, 8, 255, 0)
+DMX.add(11_200, 1000, 1, 255, 0) // uit
+DMX.add(11_200, 1000, 8, 255, 0) // uit
 
-DMX.add(12_500, 100, 1, 0, 255)
-DMX.add(12_500, 100, 8, 0, 255)
+DMX.add(12_500, 50, 1, 0, 255)
+DMX.add(12_500, 50, 8, 0, 255)
+
+DMX.setColorFade(12_600, 2, 100,  255,     0,     0);
+DMX.setColorFade(12_600, 9, 100,  0,       0,     255);
+
+DMX.setColorFade(12_700, 2, 100,  0,     0,     255);
+DMX.setColorFade(12_700, 9, 100,  255,       0,     0);
+
+DMX.setColorFade(12_800, 2, 100,  255,     0,     0);
+DMX.setColorFade(12_800, 9, 100,  0,       0,     255);
+
+DMX.setColorFade(12_900, 2, 100,  0,     0,     255);
+DMX.setColorFade(12_900, 9, 100,  255,       0,     0);
 
 
 DMX.export();
