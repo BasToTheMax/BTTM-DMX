@@ -56,10 +56,14 @@
         canPlay = false;
         curr = 0;
 
-        music.addEventListener("canplaythrough", (event) => {
+        var DMX;
+
+        music.addEventListener("canplaythrough", async (event) => {
                 // music.play();
                 canPlay = true;
                 document.getElementById('s').style.backgroundColor = 'green';
+
+                DMX = await fetch('/json/1').then(r => r.json());
             });
 
         function start() {
