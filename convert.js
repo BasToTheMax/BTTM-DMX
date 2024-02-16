@@ -27,13 +27,51 @@ for(let i = 0; i < data.data.length; i++) {
     startAt[a].push(data.data[i]);
 }
 
-console.log(startAt);
+// console.log(startAt);
+
+var newData;
+newData = [];
+
+var DMX;
+var rDMX;
+rDMX = [];
+DMX = [];
 
 for(let i = 0; i <= length; i++) {
     // log(`> Processing ${i}...`)
+
+    newData[i] = [];
+
     var needsToStart = startAt[i];
     if (!needsToStart) needsToStart = [];
     if (needsToStart.length > 0) {
-        log(`> ${needsToStart.length} start at ${i}`)
+        log(`> ${needsToStart.length} start at ${i}`);
+
+        log(needsToStart);
+        for(let j = 0; j < needsToStart.length; j++) {
+            var item = needsToStart[j];
+            log('i', item);
+            var durr = item.duration;
+            var froms = item.from;
+            var tos = item.to;
+            var toChange = tos - froms;
+            var valPerMS = toChange/durr;
+
+            var channel = item.channel;
+
+            valPerMS = valPerMS;
+
+            if (!DMX[channel]) DMX[channel] = froms;
+            if (!rDMX[channel]) rDMX[channel] = froms;
+
+            for(let h = 0; h < durr; h++) {
+                rDMX[channel] = rDMX[channel] + valPerMS;
+                DMX[channel] = Math.round(rDMX[channel]);
+
+                log(rDMX[channel], DMX[channel]);
+            }
+
+            log(valPerMS, DMX[channel]);
+        }
     }
 }
