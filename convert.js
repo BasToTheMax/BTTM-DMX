@@ -68,7 +68,8 @@ for(let i = 0; i <= length; i++) {currentTime
                 rDMX[channel] = rDMX[channel] + valPerMS;
                 DMX[channel] = Math.round(rDMX[channel]);
 
-                newData[i].push();
+                if (!newData[i + h]) newData[i + h] = [];
+                newData[i + h].push([channel, DMX[channel]]);
 
                 // log(rDMX[channel], DMX[channel], currentTime);
             }
