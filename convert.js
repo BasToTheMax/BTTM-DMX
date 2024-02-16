@@ -64,6 +64,9 @@ for(let i = 0; i <= length; i++) {currentTime
             if (!DMX[channel]) DMX[channel] = froms;
             if (!rDMX[channel]) rDMX[channel] = froms;
 
+            DMX[channel] = froms;
+            rDMX[channel] = froms;
+
             for(let h = 0; h < durr; h++) {
                 rDMX[channel] = rDMX[channel] + valPerMS;
                 DMX[channel] = Math.round(rDMX[channel]);
