@@ -3,14 +3,14 @@
     "data": [
     {
         "start": 0,
-        "duration": 5000,
+        "duration": 1,
         "from": 0,
         "to": 100,
         "channel": 1
     },
     {
         "start": 0,
-        "duration": 5000,
+        "duration": 500,
         "from": 0,
         "to": 255,
         "channel": 2
@@ -19,12 +19,12 @@
         "start": 0,
         "duration": 1000,
         "from": 0,
-        "to": 255,
+        "to": 50,
         "channel": 3
     },
     {
         "start": 0,
-        "duration": 1000,
+        "duration": 3000,
         "from": 0,
         "to": 255,
         "channel": 4
