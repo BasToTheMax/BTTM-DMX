@@ -50,7 +50,11 @@
         // });
 
         var canPlay;
+        var curr;
+        var isPlay;
+        isPlay = false;
         canPlay = false;
+        curr = 0;
 
         music.addEventListener("canplaythrough", (event) => {
                 // music.play();
@@ -59,9 +63,18 @@
             });
 
         function start() {
-            if (canPlay == true) music.play();
+            if (canPlay == true) {
+                music.play();
+                isPlay = true;
+            }
             // music.play();
         }
+
+        setInterval(() => {
+            if (isPlay == true) {
+                curr++;
+            }
+        }, 1);
 
         function pause() {
             music.pause();
