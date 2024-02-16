@@ -24,28 +24,28 @@
     },
     {
       "start": 500,
-      "duration": 50,
-      "channel": 1,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 550,
-      "duration": 50,
-      "channel": 1,
-      "from": 255,
-      "to": 0
-    },
-    {
-      "start": 550,
-      "duration": 50,
+      "duration": 100,
       "channel": 1,
       "from": 0,
       "to": 255
     },
     {
       "start": 600,
-      "duration": 50,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 600,
+      "duration": 100,
+      "channel": 1,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 700,
+      "duration": 100,
       "channel": 1,
       "from": 255,
       "to": 0
