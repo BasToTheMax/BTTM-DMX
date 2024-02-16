@@ -282,88 +282,130 @@
       "to": 255
     },
     {
-      "start": 5500,
+      "start": 5400,
       "duration": 100,
       "channel": 2,
       "from": 0,
       "to": 255
     },
     {
-      "start": 5500,
+      "start": 5400,
       "duration": 100,
       "channel": 3,
       "from": 0,
       "to": 0
     },
     {
-      "start": 5500,
+      "start": 5400,
       "duration": 100,
       "channel": 4,
       "from": 0,
       "to": 0
     },
     {
-      "start": 5500,
+      "start": 5400,
       "duration": 100,
       "channel": 9,
       "from": 0,
       "to": 0
     },
     {
-      "start": 5500,
+      "start": 5400,
       "duration": 100,
       "channel": 10,
       "from": 0,
       "to": 0
     },
     {
-      "start": 5500,
+      "start": 5400,
       "duration": 100,
       "channel": 11,
       "from": 0,
       "to": 255
     },
     {
-      "start": 6500,
+      "start": 6350,
       "duration": 100,
       "channel": 2,
       "from": 0,
       "to": 0
     },
     {
-      "start": 6500,
+      "start": 6350,
       "duration": 100,
       "channel": 3,
       "from": 0,
       "to": 0
     },
     {
-      "start": 6500,
+      "start": 6350,
       "duration": 100,
       "channel": 4,
       "from": 0,
       "to": 255
     },
     {
-      "start": 6500,
+      "start": 6350,
       "duration": 100,
       "channel": 9,
       "from": 0,
       "to": 255
     },
     {
-      "start": 6500,
+      "start": 6350,
       "duration": 100,
       "channel": 10,
       "from": 0,
       "to": 0
     },
     {
-      "start": 6500,
+      "start": 6350,
       "duration": 100,
       "channel": 11,
       "from": 0,
       "to": 0
+    },
+    {
+      "start": 8500,
+      "duration": 100,
+      "channel": 2,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 8500,
+      "duration": 100,
+      "channel": 3,
+      "from": 0,
+      "to": 50
+    },
+    {
+      "start": 8500,
+      "duration": 100,
+      "channel": 4,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "start": 8500,
+      "duration": 100,
+      "channel": 9,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "start": 8500,
+      "duration": 100,
+      "channel": 10,
+      "from": 0,
+      "to": 50
+    },
+    {
+      "start": 8500,
+      "duration": 100,
+      "channel": 11,
+      "from": 0,
+      "to": 255
     }
   ]
 }
