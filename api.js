@@ -46,7 +46,7 @@ DMX.export = () => {
     require('fs').writeFileSync('./script/1.json', JSON.stringify({
         duration: DMX.length,
         data: DMX.data
-    }));
+    }, null , 2));
 
     require('./convert');
 }

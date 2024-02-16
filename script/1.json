@@ -1,1 +1,68 @@
-{"duration":5,"data":[{"start":500,"duration":1,"channel":2,"from":0,"to":255},{"start":500,"duration":1,"channel":3,"from":0,"to":255},{"start":500,"duration":1,"channel":4,"from":0,"to":255},{"start":2000,"duration":50,"channel":1,"from":0,"to":255},{"start":2050,"duration":50,"channel":1,"from":255,"to":0}]}
+{
+  "duration": 5,
+  "data": [
+    {
+      "start": 500,
+      "duration": 1,
+      "channel": 2,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 500,
+      "duration": 1,
+      "channel": 3,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 500,
+      "duration": 1,
+      "channel": 4,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 500,
+      "duration": 50,
+      "channel": 1,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 550,
+      "duration": 50,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 550,
+      "duration": 50,
+      "channel": 1,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 600,
+      "duration": 50,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 1500,
+      "duration": 50,
+      "channel": 1,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 1550,
+      "duration": 50,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    }
+  ]
+}
