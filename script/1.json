@@ -31,7 +31,22 @@
         },
 
         {
-            "start": 750,
+            "start": 600,
+            "duration": 100,
+            "from": 255,
+            "to": 0,
+            "channel": 1
+        },
+
+        {
+            "start": 650,
+            "duration": 100,
+            "from": 0,
+            "to": 255,
+            "channel": 1
+        },
+        {
+            "start": 700,
             "duration": 100,
             "from": 255,
             "to": 0,
