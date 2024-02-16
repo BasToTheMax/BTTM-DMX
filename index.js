@@ -39,9 +39,11 @@ io.on("connection", (socket) => {
     var va = val[1];
 
     var r = {};
-    r[ch] = va;
+    r[parseInt(ch)] = va;
 
-    uni.update(r)
+    console.log(r);
+
+    uni.update(r);
   });
 });
 
