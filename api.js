@@ -68,4 +68,10 @@ DMX.onOff = (start, duration, channel) => {
     );
 }
 
+DMX.setColor = (start, channel, r, g, b) => {
+    DMX.add(start, 1, channel, 0, r);
+    DMX.add(start, 1, channel+1, 0, g);
+    DMX.add(start, 1, channel+2, 0, b);
+}
+
 module.exports = DMX;
