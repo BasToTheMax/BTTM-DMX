@@ -77,10 +77,17 @@
         setInterval(() => {
             if (isPlay == true) {
                 curr++;
+
+                if (DMX[curr]) {
+                    DMX[curr].forEach(vals => {
+                        socket.emit('set', vals);
+                    });
+                }
             }
         }, 1);
 
         function pause() {
+            isPlay = false;
             music.pause();
         }
 

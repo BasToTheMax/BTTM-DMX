@@ -1,16 +1,16 @@
 {
-    "duration": 1,
+    "duration": 5,
     "data": [
     {
         "start": 0,
-        "duration": 1000,
+        "duration": 5000,
         "from": 0,
-        "to": 255,
+        "to": 100,
         "channel": 1
     },
     {
         "start": 0,
-        "duration": 1000,
+        "duration": 5000,
         "from": 0,
         "to": 255,
         "channel": 2
