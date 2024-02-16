@@ -80,6 +80,9 @@
 
                 if (DMX[curr]) {
                     DMX[curr].forEach(vals => {
+                        if (vals[0] == 1) {
+                            console.log('ch1 is now ', vals[1])
+                        }
                         socket.emit('set', vals);
                     });
                 }
