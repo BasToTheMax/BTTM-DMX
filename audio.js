@@ -67,9 +67,12 @@ DMX.add(12_500, 50, 1, 0, 255)
 DMX.add(12_500, 50, 8, 0, 255)
 
 for (let i = 0; i < 20; i++) {
-    DMX.onOff(12_600 + (i*100), 100, 1);
-    DMX.onOff(12_600 + (i*100), 100, 8);
+    DMX.onOff(12_600 + (i*250), 100, 1);
+    DMX.onOff(12_600 + (i*250), 100, 8);
 }
+
+DMX.setColorFade(14_000, 2, 100,  255,     0,     0);
+DMX.setColorFade(14_000, 9, 100,  0,       0,     255);
 
 // DMX.setColorFade(12_600, 2, 100,  255,     0,     0);
 // DMX.setColorFade(12_600, 9, 100,  0,       0,     255);
