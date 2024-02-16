@@ -480,589 +480,561 @@
     {
       "start": 12600,
       "duration": 100,
-      "channel": 2,
+      "channel": 1,
       "from": 0,
       "to": 255
     },
     {
-      "start": 12600,
+      "start": 12700,
       "duration": 100,
-      "channel": 3,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 12600,
-      "duration": 100,
-      "channel": 4,
-      "from": 0,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 12600,
       "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 12600,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 12600,
-      "duration": 100,
-      "channel": 11,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 12700,
       "duration": 100,
-      "channel": 2,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 12700,
       "duration": 100,
-      "channel": 3,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 12800,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 12700,
       "duration": 100,
-      "channel": 4,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 12700,
-      "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 12700,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 12700,
-      "duration": 100,
-      "channel": 11,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 12800,
-      "duration": 100,
-      "channel": 2,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 12800,
       "duration": 100,
-      "channel": 3,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 12800,
       "duration": 100,
-      "channel": 4,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 12900,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 12800,
       "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 12800,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 12800,
-      "duration": 100,
-      "channel": 11,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 12900,
       "duration": 100,
-      "channel": 2,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 12900,
       "duration": 100,
-      "channel": 3,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 13000,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 12900,
       "duration": 100,
-      "channel": 4,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 12900,
-      "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 12900,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 12900,
-      "duration": 100,
-      "channel": 11,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13000,
-      "duration": 100,
-      "channel": 2,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 13000,
       "duration": 100,
-      "channel": 3,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13000,
       "duration": 100,
-      "channel": 4,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 13100,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13000,
       "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13000,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13000,
-      "duration": 100,
-      "channel": 11,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 13100,
       "duration": 100,
-      "channel": 2,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13100,
       "duration": 100,
-      "channel": 3,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 13200,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13100,
       "duration": 100,
-      "channel": 4,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 13100,
-      "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 13100,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13100,
-      "duration": 100,
-      "channel": 11,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13200,
-      "duration": 100,
-      "channel": 2,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 13200,
       "duration": 100,
-      "channel": 3,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13200,
       "duration": 100,
-      "channel": 4,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 13300,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13200,
       "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13200,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13200,
-      "duration": 100,
-      "channel": 11,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 13300,
       "duration": 100,
-      "channel": 2,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13300,
       "duration": 100,
-      "channel": 3,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 13400,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13300,
       "duration": 100,
-      "channel": 4,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 13300,
-      "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 13300,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13300,
-      "duration": 100,
-      "channel": 11,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13400,
-      "duration": 100,
-      "channel": 2,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 13400,
       "duration": 100,
-      "channel": 3,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13400,
       "duration": 100,
-      "channel": 4,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 13500,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13400,
       "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13400,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13400,
-      "duration": 100,
-      "channel": 11,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 13500,
       "duration": 100,
-      "channel": 2,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13500,
       "duration": 100,
-      "channel": 3,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 13600,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13500,
       "duration": 100,
-      "channel": 4,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 13500,
-      "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 13500,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13500,
-      "duration": 100,
-      "channel": 11,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13600,
-      "duration": 100,
-      "channel": 2,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 13600,
       "duration": 100,
-      "channel": 3,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13600,
       "duration": 100,
-      "channel": 4,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 13700,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13600,
       "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13600,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13600,
-      "duration": 100,
-      "channel": 11,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 13700,
       "duration": 100,
-      "channel": 2,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13700,
       "duration": 100,
-      "channel": 3,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 13800,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13700,
       "duration": 100,
-      "channel": 4,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 13700,
-      "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 13700,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13700,
-      "duration": 100,
-      "channel": 11,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13800,
-      "duration": 100,
-      "channel": 2,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 13800,
       "duration": 100,
-      "channel": 3,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13800,
       "duration": 100,
-      "channel": 4,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13800,
-      "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13800,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13800,
-      "duration": 100,
-      "channel": 11,
+      "channel": 1,
       "from": 0,
       "to": 255
     },
     {
       "start": 13900,
       "duration": 100,
-      "channel": 2,
-      "from": 0,
+      "channel": 1,
+      "from": 255,
       "to": 0
     },
     {
-      "start": 13900,
+      "start": 13800,
       "duration": 100,
-      "channel": 3,
-      "from": 0,
-      "to": 0
-    },
-    {
-      "start": 13900,
-      "duration": 100,
-      "channel": 4,
+      "channel": 8,
       "from": 0,
       "to": 255
     },
     {
       "start": 13900,
       "duration": 100,
-      "channel": 9,
-      "from": 0,
-      "to": 255
-    },
-    {
-      "start": 13900,
-      "duration": 100,
-      "channel": 10,
-      "from": 0,
+      "channel": 8,
+      "from": 255,
       "to": 0
     },
     {
       "start": 13900,
       "duration": 100,
-      "channel": 11,
+      "channel": 1,
       "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14000,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 13900,
+      "duration": 100,
+      "channel": 8,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14000,
+      "duration": 100,
+      "channel": 8,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14000,
+      "duration": 100,
+      "channel": 1,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14100,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14000,
+      "duration": 100,
+      "channel": 8,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14100,
+      "duration": 100,
+      "channel": 8,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14100,
+      "duration": 100,
+      "channel": 1,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14200,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14100,
+      "duration": 100,
+      "channel": 8,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14200,
+      "duration": 100,
+      "channel": 8,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14200,
+      "duration": 100,
+      "channel": 1,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14300,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14200,
+      "duration": 100,
+      "channel": 8,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14300,
+      "duration": 100,
+      "channel": 8,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14300,
+      "duration": 100,
+      "channel": 1,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14400,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14300,
+      "duration": 100,
+      "channel": 8,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14400,
+      "duration": 100,
+      "channel": 8,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14400,
+      "duration": 100,
+      "channel": 1,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14500,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14400,
+      "duration": 100,
+      "channel": 8,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14500,
+      "duration": 100,
+      "channel": 8,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14500,
+      "duration": 100,
+      "channel": 1,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14600,
+      "duration": 100,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 14500,
+      "duration": 100,
+      "channel": 8,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 14600,
+      "duration": 100,
+      "channel": 8,
+      "from": 255,
       "to": 0
     }
   ]
