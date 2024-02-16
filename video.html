@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0px;
+            font-family: sans-serif;
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            text-align: center;
+            font-size: 50px;
+
+            color: black;
+            font-weight: bolder;
+        }
+
+        button {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body id="back">
+    <button onclick="start()" id="s">Start</button>
+    <button onclick="pause()">Pause</button>
+
+    <div>PAR-1: <span id="l1">0</span></div>
+    <div>PAR-2: <span id="l2">0</span></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+
+        var tag = document.createElement('script');
+
+        let music = new Audio(localStorage.getItem('url'));
+
+        // document.getElementsByTagName('body')[0].addEventListener('click', () => {
+        //     music.play();
+        // });
+
+        var canPlay;
+        canPlay = false;
+
+        music.addEventListener("canplaythrough", (event) => {
+                // music.play();
+                canPlay = true;
+                document.getElementById('s').style.backgroundColor = 'green';
+            });
+
+        function start() {
+            if (canPlay == true) music.play();
+            // music.play();
+        }
+
+        function pause() {
+            music.pause();
+        }
+
+        var dur;
+
+        
+        music.addEventListener("timeupdate", event => {
+            
+            console.log('e', event.timeStamp/1000, '/', dur)
+            
+        });
+        music.addEventListener("durationchange", event => {
+            
+            console.log('e', event)
+            dur = event.timeStamp;
+            
+        });
+
+        music.addEventListener("seeking", (event) => {
+            console.log('seek', event);
+        });
+    </script>
+</body>
+
+</html>
