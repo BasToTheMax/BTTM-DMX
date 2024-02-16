@@ -1,40 +1,35 @@
 {
     "duration": 10,
     "data": [
-    {
-        "start": 0,
-        "duration": 500,
-        "from": 0,
-        "to": 100,
-        "channel": 1
-    },
-    {
-        "start": 0,
-        "duration": 1500,
-        "from": 0,
-        "to": 255,
-        "channel": 2
-    },
-    {
-        "start": 0,
-        "duration": 1000,
-        "from": 0,
-        "to": 50,
-        "channel": 3
-    },
-    {
-        "start": 0,
-        "duration": 3000,
-        "from": 0,
-        "to": 255,
-        "channel": 4
-    },
-    {
-        "start": 500,
-        "duration": 3500,
-        "from": 0,
-        "to": 255,
-        "channel": 1
-    }
+        {
+            "start": 0,
+            "duration": 2500,
+            "from": 0,
+            "to": 100,
+            "channel": 1
+        },
+        {
+            "start": 0,
+            "duration": 1,
+            "from": 0,
+            "to": 255,
+            "channel": 2
+        },
+
+
+        {
+            "start": 3000,
+            "duration": 2000,
+            "from": 255,
+            "to": 0,
+            "channel": 1
+        },
+        {
+            "start": 3000,
+            "duration": 2000,
+            "from": 0,
+            "to": 255,
+            "channel": 2
+        }
     ]
 }

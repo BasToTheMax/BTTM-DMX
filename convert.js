@@ -54,7 +54,12 @@ for(let i = 0; i <= length; i++) {currentTime
             var durr = item.duration;
             var froms = item.from;
             var tos = item.to;
-            var toChange = tos - froms;
+            var toChange;
+            if (froms < tos) {
+                toChange = tos - froms;
+            } else {
+                toChange = froms - tos;
+            }
             var valPerMS = toChange/durr;
 
             var channel = item.channel;
@@ -68,20 +73,30 @@ for(let i = 0; i <= length; i++) {currentTime
             rDMX[channel] = froms;
 
             for(let h = 0; h < durr; h++) {
-                rDMX[channel] = rDMX[channel] + valPerMS;
+                if (froms < tos) {
+                    rDMX[channel] = rDMX[channel] + valPerMS;
+                } else {
+                    rDMX[channel] = rDMX[channel] - valPerMS;
+                }
+                
                 DMX[channel] = Math.round(rDMX[channel]);
 
-                log(i + h, i, h)
+                // log(i + h, i, h)
 
                 if (!newData[i + h]) {
                     newData[i + h] = [];
                 }
                 newData[i + h].push([channel, DMX[channel]]);
 
+                if (DMX[channel] > 255) {
+                    log('> ERROR. Value bigger than 255');
+                    process.exit(1);
+                }
+
                 // log(rDMX[channel], DMX[channel], currentTime);
             }
 
-            log(valPerMS, DMX[channel]);
+            // log(DMX[channel]);
         }
     }
 
