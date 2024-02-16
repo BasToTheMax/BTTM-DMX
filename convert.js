@@ -37,7 +37,7 @@ var rDMX;
 rDMX = [];
 DMX = [];
 
-for(let i = 0; i <= length; i++) {
+for(let i = 0; i <= length; i++) {currentTime
     // log(`> Processing ${i}...`)
 
     newData[i] = [];
@@ -68,10 +68,16 @@ for(let i = 0; i <= length; i++) {
                 rDMX[channel] = rDMX[channel] + valPerMS;
                 DMX[channel] = Math.round(rDMX[channel]);
 
-                log(rDMX[channel], DMX[channel]);
+                newData[i].push();
+
+                // log(rDMX[channel], DMX[channel], currentTime);
             }
 
             log(valPerMS, DMX[channel]);
         }
     }
+
+    currentTime++;
 }
+
+fs.writeFileSync(`./dmx/${id}.json`, JSON.stringify(newData, null, 2));
