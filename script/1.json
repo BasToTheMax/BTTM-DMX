@@ -366,44 +366,114 @@
       "to": 0
     },
     {
-      "start": 8500,
+      "start": 8400,
       "duration": 100,
       "channel": 2,
       "from": 0,
       "to": 255
     },
     {
-      "start": 8500,
+      "start": 8400,
       "duration": 100,
       "channel": 3,
       "from": 0,
-      "to": 50
+      "to": 0
     },
     {
-      "start": 8500,
+      "start": 8400,
       "duration": 100,
       "channel": 4,
       "from": 0,
       "to": 0
     },
     {
-      "start": 8500,
+      "start": 8400,
       "duration": 100,
       "channel": 9,
       "from": 0,
       "to": 0
     },
     {
-      "start": 8500,
+      "start": 8400,
       "duration": 100,
       "channel": 10,
       "from": 0,
-      "to": 50
+      "to": 0
     },
     {
-      "start": 8500,
+      "start": 8400,
       "duration": 100,
       "channel": 11,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 10200,
+      "duration": 100,
+      "channel": 2,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "start": 10200,
+      "duration": 100,
+      "channel": 3,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "start": 10200,
+      "duration": 100,
+      "channel": 4,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 10200,
+      "duration": 100,
+      "channel": 9,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 10200,
+      "duration": 100,
+      "channel": 10,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "start": 10200,
+      "duration": 100,
+      "channel": 11,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "start": 11400,
+      "duration": 1000,
+      "channel": 1,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 11400,
+      "duration": 1000,
+      "channel": 8,
+      "from": 255,
+      "to": 0
+    },
+    {
+      "start": 12500,
+      "duration": 100,
+      "channel": 1,
+      "from": 0,
+      "to": 255
+    },
+    {
+      "start": 12500,
+      "duration": 100,
+      "channel": 8,
       "from": 0,
       "to": 255
     }
