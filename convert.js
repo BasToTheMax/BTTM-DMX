@@ -40,7 +40,7 @@ DMX = [];
 for(let i = 0; i <= length; i++) {currentTime
     // log(`> Processing ${i}...`)
 
-    newData[i] = [];
+    if (!newData[i]) newData[i] = [];
 
     var needsToStart = startAt[i];
     if (!needsToStart) needsToStart = [];
@@ -68,7 +68,11 @@ for(let i = 0; i <= length; i++) {currentTime
                 rDMX[channel] = rDMX[channel] + valPerMS;
                 DMX[channel] = Math.round(rDMX[channel]);
 
-                if (!newData[i + h]) newData[i + h] = [];
+                log(i + h, i, h)
+
+                if (!newData[i + h]) {
+                    newData[i + h] = [];
+                }
                 newData[i + h].push([channel, DMX[channel]]);
 
                 // log(rDMX[channel], DMX[channel], currentTime);
