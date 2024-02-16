@@ -14,6 +14,7 @@ DMX.setLength(5);
 */
 
 DMX.setColor(500, 2, 255, 255, 255);
+DMX.setColor(500, 9, 255, 255, 255);
 
 // DMX.add(500, 2, 2, 0, 255);
 // DMX.add(500, 2, 3, 0, 255);
@@ -25,5 +26,8 @@ DMX.setColor(500, 2, 255, 255, 255);
 DMX.onOff(500, 100, 1);
 DMX.onOff(600, 100, 1);
 DMX.onOff(1500, 100, 1);
+
+DMX.onOff(3400, 100, 1);
+DMX.onOff(3400, 100, 8);
 
 DMX.export();
