@@ -95,7 +95,7 @@ for (let i = 0; i < 75; i++) {
 
 log('last', last)
 
-for (let i = 0; i < 65; i++) {
+for (let i = 0; i < 50; i++) {
     // DMX.onOff(12_700 + (i*150), 50, 1);
     // DMX.onOff(12_700 + (i*150), 50, 8);
 
@@ -129,13 +129,13 @@ for (let i = 0; i < 65; i++) {
 
 log('Last2', last);
 
-DMX.add(26_000, 1000, 1, 255, 0); // Stop when off
-DMX.add(26_000, 1000, 8, 255, 0); // Stop whem off
+DMX.add(25_000, 1000, 1, 255, 0); // Stop when off
+DMX.add(25_000, 1000, 8, 255, 0); // Stop whem off
 
 DMX.setColor(26_000, 2, 255, 255, 255);
 DMX.setColor(26_000, 9, 255, 255, 255);
 
-DMX.add(26_000, 1000, 1, 0, 255); // Stop when off
+DMX.add(27_000, 1000, 1, 0, 255); // Stop when off
 DMX.add(27_000, 100, 8, 9, 255); // Stop whem off
 
 DMX.export();
