@@ -22,13 +22,6 @@ DMX.add(1, 2, 8, 1, 0)
 DMX.setColor(500, 2, 255, 255, 255);
 DMX.setColor(500, 9, 255, 255, 255);
 
-// DMX.add(500, 2, 2, 0, 255);
-// DMX.add(500, 2, 3, 0, 255);
-// DMX.add(500, 2, 4, 0, 255);
-
-// DMX.add(500, 50, 1, 0, 255);
-// DMX.add(550, 50, 1, 255, 0);
-
 DMX.onOff(500, 75, 1); // Your love
 DMX.onOff(600, 75, 1); // Your love
 DMX.onOff(500, 75, 8); // Your love
