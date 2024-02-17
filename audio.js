@@ -32,9 +32,9 @@ DMX.onOff(1500, 100, 1); // Ping
 DMX.onOff(1500, 100, 8); // Ping
 
 DMX.onOff(2500, 75, 1); // Your love
-DMX.onOff(2600, 75, 1); // Your love
+DMX.onOff(2700, 75, 1); // Your love
 DMX.onOff(2500, 75, 8); // Your love
-DMX.onOff(2600, 75, 8); // Your love
+DMX.onOff(2700, 75, 8); // Your love
 
 DMX.onOff(3400, 100, 1);
 DMX.onOff(3400, 100, 8);
