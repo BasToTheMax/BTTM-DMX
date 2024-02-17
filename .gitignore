@@ -1,3 +1,7 @@
+# DMX Script
+script/*.json
+dmx/*.json
+
 # Logs
 logs
 *.log

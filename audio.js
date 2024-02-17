@@ -1,6 +1,6 @@
 const DMX = require('./api');
 
-DMX.setLength(15);
+DMX.setLength(60);
 
 DMX.setColor(1, 2, 255, 255, 255);
 DMX.setColor(1, 9, 255, 255, 255);
@@ -56,16 +56,22 @@ DMX.setColorFade(10_200, 9, 100,  255,       0,     0);
 DMX.add(11_200, 1000, 1, 255, 0) // uit
 DMX.add(11_200, 1000, 8, 255, 0) // uit
 
-DMX.add(12_500, 50, 1, 0, 255)
-DMX.add(12_500, 50, 8, 0, 255)
+DMX.add(12_500, 50, 1, 0, 255);
+DMX.add(12_500, 50, 8, 0, 255);
 
-for (let i = 0; i < 20; i++) {
-    DMX.onOff(12_600 + (i*250), 50, 1);
-    DMX.onOff(12_600 + (i*250), 50, 8);
+var last;
+
+for (let i = 0; i < 50; i++) {
+    DMX.onOff(12_700 + (i*250), 50, 1);
+    DMX.onOff(12_700 + (i*250), 50, 8);
+
+    last = 12_700 + (i*250);
 }
 
 DMX.setColorFade(14_000, 2, 100,  255,     0,     0);
 DMX.setColorFade(14_000, 9, 100,  0,       0,     255);
+
+log('Last', last);
 
 // DMX.setColorFade(12_600, 2, 100,  255,     0,     0);
 // DMX.setColorFade(12_600, 9, 100,  0,       0,     255);
