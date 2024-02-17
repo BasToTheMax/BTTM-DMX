@@ -62,9 +62,11 @@ DMX.add(12_500, 50, 8, 0, 255);
 
 var last;
 
-for (let i = 0; i < 75; i++) {
+for (let i = 0; i < 70; i++) {
     // DMX.onOff(12_700 + (i*150), 50, 1);
     // DMX.onOff(12_700 + (i*150), 50, 8);
+
+    var t = 100;
 
     const isEven = num => ((num % 2) == 0);
 
@@ -85,14 +87,14 @@ for (let i = 0; i < 75; i++) {
         r2 = 0;
      }
 
-    DMX.setColorFade(12_700 + (i*150), 2, 100,  l1,     0,     l2);
-    DMX.setColorFade(12_700 + (i*150), 9, 100,  r1,       0,     r2);
+    DMX.setColorFade(12_700 + (i*t), 2, 100,  l1,     0,     l2);
+    DMX.setColorFade(12_700 + (i*t), 9, 100,  r1,       0,     r2);
 
-    last = 12_700 + (i*150);
+    last = 12_700 + (i*t);
 }
 
-DMX.setColorFade(20_000, 2, 100,  255,     0,     0);
-DMX.setColorFade(20_000, 9, 100,  0,       0,     255);
+DMX.add(28_000, 1000, 1, 255, 0); // Stop when off
+DMX.add(28_000, 1000, 8, 255, 0); // Stop whem off
 
 log('Last', last);
 
