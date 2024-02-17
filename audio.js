@@ -24,9 +24,9 @@ DMX.setColor(500, 2, 255, 255, 255);
 DMX.setColor(500, 9, 255, 255, 255);
 
 DMX.onOff(500, 75, 1); // Your love
-DMX.onOff(600, 75, 1); // Your love
+DMX.onOff(700, 75, 1); // Your love
 DMX.onOff(500, 75, 8); // Your love
-DMX.onOff(600, 75, 8); // Your love
+DMX.onOff(700, 75, 8); // Your love
 
 DMX.onOff(1500, 100, 1); // Ping
 DMX.onOff(1500, 100, 8); // Ping
