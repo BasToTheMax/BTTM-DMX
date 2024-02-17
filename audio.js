@@ -48,8 +48,8 @@ DMX.setColorFade(5400, 9, 100, 0, 0, 255);
 DMX.setColorFade(6350, 2, 100,  0,      0,      255);
 DMX.setColorFade(6350, 9, 100,  255,    0,      0);
 
-DMX.setColorFade(8400, 2, 100,  255,     0,     0);
-DMX.setColorFade(8400, 9, 100,  0,       0,     255);
+DMX.setColorFade(8300, 2, 100,  255,     0,     0);
+DMX.setColorFade(8300, 9, 100,  0,       0,     255);
 
 DMX.setColorFade(10_200, 2, 100,  0,     0,     255);
 DMX.setColorFade(10_200, 9, 100,  255,       0,     0);
