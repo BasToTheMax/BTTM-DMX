@@ -62,7 +62,40 @@ DMX.add(12_500, 50, 8, 0, 255);
 
 var last;
 
-for (let i = 0; i < 140; i++) {
+for (let i = 0; i < 75; i++) {
+    // DMX.onOff(12_700 + (i*150), 50, 1);
+    // DMX.onOff(12_700 + (i*150), 50, 8);
+
+    var t = 100;
+
+    const isEven = num => ((num % 2) == 0);
+
+    var l1;
+    var r1;
+
+    if (isEven(i)) {
+        l1 = 255;
+        l2 = 0;
+
+        r1 = 0;
+        r2 = 255;
+    } else {
+       l1 = 0;
+       l2 = 255;
+
+        r1 = 255;
+        r2 = 0;
+     }
+
+    DMX.setColorFade(12_700 + (i*t), 2, 100,  l1,     0,     l2);
+    DMX.setColorFade(12_700 + (i*t), 9, 100,  r1,       0,     r2);
+
+    last = 12_700 + (i*t);
+}
+
+log('last', last)
+
+for (let i = 0; i < 60; i++) {
     // DMX.onOff(12_700 + (i*150), 50, 1);
     // DMX.onOff(12_700 + (i*150), 50, 8);
 
@@ -87,16 +120,17 @@ for (let i = 0; i < 140; i++) {
         r2 = 0;
      }
 
-    DMX.setColorFade(12_700 + (i*t), 2, 100,  l1,     0,     l2);
-    DMX.setColorFade(12_700 + (i*t), 9, 100,  r1,       0,     r2);
+    DMX.setColorFade(20_100 + (i*t), 2, 100,  l1,     l2,     0);
+    DMX.setColorFade(20_100 + (i*t), 9, 100,  r1,       r2,     0);
 
-    last = 12_700 + (i*t);
+    last = 20_100 + (i*t);
 }
+
+
+log('Last2', last);
 
 DMX.add(27_000, 1000, 1, 255, 0); // Stop when off
 DMX.add(27_000, 1000, 8, 255, 0); // Stop whem off
-
-log('Last', last);
 
 DMX.export();
 log('> Exported')
