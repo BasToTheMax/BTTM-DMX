@@ -132,11 +132,107 @@ log('Last2', last);
 DMX.add(27_000, 1000, 1, 255, 0); // Stop when off
 DMX.add(27_000, 1000, 8, 255, 0); // Stop whem off
 
-DMX.setColorFade(27_000, 2, 25, 255, 255, 255);
-DMX.setColorFade(27_000, 9, 25, 255, 255, 255);
+DMX.setColorFade(27_000, 2, 100, 255, 255, 255);
+DMX.setColorFade(27_000, 9, 100, 255, 255, 255);
 
 DMX.add(28_000, 100, 1, 0, 255); // Stop when off
 DMX.add(28_000, 100, 8, 9, 255); // Stop whem off
+
+for (let i = 0; i < 100; i++) {
+    // DMX.onOff(12_700 + (i*150), 50, 1);
+    // DMX.onOff(12_700 + (i*150), 50, 8);
+
+    var t = 100;
+
+    const isEven = num => ((num % 2) == 0);
+
+    var l1;
+    var r1;
+
+    if (isEven(i)) {
+        l1 = 255;
+        l2 = 0;
+
+        r1 = 0;
+        r2 = 255;
+    } else {
+       l1 = 0;
+       l2 = 255;
+
+        r1 = 255;
+        r2 = 0;
+     }
+
+    DMX.setColorFade(30_000 + (i*t), 2, 100,  l1,     0,     l2);
+    DMX.setColorFade(30_000 + (i*t), 9, 100,  r1,       0,     r2);
+
+    last = 30_000 + (i*t);
+}
+log('Last3', last);
+
+for (let i = 0; i < 100; i++) {
+    // DMX.onOff(12_700 + (i*150), 50, 1);
+    // DMX.onOff(12_700 + (i*150), 50, 8);
+
+    var t = 100;
+
+    const isEven = num => ((num % 2) == 0);
+
+    var l1;
+    var r1;
+
+    if (isEven(i)) {
+        l1 = 255;
+        l2 = 0;
+
+        r1 = 0;
+        r2 = 255;
+    } else {
+       l1 = 0;
+       l2 = 255;
+
+        r1 = 255;
+        r2 = 0;
+     }
+
+    DMX.setColorFade(40_000 + (i*t), 2, 100,  l1,     0,     l2);
+    DMX.setColorFade(40_000 + (i*t), 9, 100,  r1,       0,     r2);
+
+    last = 40_000 + (i*t);
+}
+log('Last4', last);
+
+for (let i = 0; i < 100; i++) {
+    // DMX.onOff(12_700 + (i*150), 50, 1);
+    // DMX.onOff(12_700 + (i*150), 50, 8);
+
+    var t = 100;
+
+    const isEven = num => ((num % 2) == 0);
+
+    var l1;
+    var r1;
+
+    if (isEven(i)) {
+        l1 = 255;
+        l2 = 0;
+
+        r1 = 0;
+        r2 = 255;
+    } else {
+       l1 = 0;
+       l2 = 255;
+
+        r1 = 255;
+        r2 = 0;
+     }
+
+    DMX.setColorFade(50_000 + (i*t), 2, 100,  l1,     l2,     l2);
+    DMX.setColorFade(50_000 + (i*t), 9, 100,  r1,       l2,     r2);
+
+    last = 50_000 + (i*t);
+}
+log('Last5', last);
 
 DMX.export();
 log('> Exported')
