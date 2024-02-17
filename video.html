@@ -57,22 +57,7 @@
         curr = 0;
 
         var DMX;
-
-        music.addEventListener("canplaythrough", async (event) => {
-                // music.play();
-                canPlay = true;
-                document.getElementById('s').style.backgroundColor = 'green';
-
-                DMX = await fetch('/json/1').then(r => r.json());
-            });
-
-        function start() {
-            if (canPlay == true) {
-                music.play();
-                isPlay = true;
-            }
-            // music.play();
-        }
+        DMX = null;
 
         setInterval(() => {
             if (isPlay == true) {
@@ -93,6 +78,22 @@
                 }
             }
         }, 1);
+
+        music.addEventListener("canplaythrough", async (event) => {
+                // music.play();
+                canPlay = true;
+                document.getElementById('s').style.backgroundColor = 'green';
+
+                DMX = await fetch('/json/1').then(r => r.json());
+            });
+
+        function start() {
+            if (canPlay == true && DMX != null) {
+                music.play();
+                isPlay = true;
+            }
+            // music.play();
+        }
 
         function pause() {
             isPlay = false;
