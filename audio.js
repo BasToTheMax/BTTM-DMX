@@ -202,7 +202,7 @@ for (let i = 0; i < 100; i++) {
 }
 log('Last4', last);
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 130; i++) {
     // DMX.onOff(12_700 + (i*150), 50, 1);
     // DMX.onOff(12_700 + (i*150), 50, 8);
 
@@ -233,6 +233,9 @@ for (let i = 0; i < 100; i++) {
     last = 50_000 + (i*t);
 }
 log('Last5', last);
+
+DMX.add(63_000, 1000, 1, 255, 0);
+DMX.add(63_000, 1000, 8, 255, 0);
 
 DMX.export();
 log('> Exported')
