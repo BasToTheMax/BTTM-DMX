@@ -20,7 +20,7 @@ var startAt;
 startAt = {};
 
 for(let i = 0; i < data.data.length; i++) {
-    log(`> A ${i}...`);
+    // log(`> A ${i}...`);
     var a = data.data[i].start;
     if (!startAt[a]) startAt[a] = [];
 
@@ -45,12 +45,12 @@ for(let i = 0; i <= length; i++) {currentTime
     var needsToStart = startAt[i];
     if (!needsToStart) needsToStart = [];
     if (needsToStart.length > 0) {
-        log(`> ${needsToStart.length} start at ${i}`);
+        // log(`> ${needsToStart.length} start at ${i}`);
 
-        log(needsToStart);
+        // log(needsToStart);
         for(let j = 0; j < needsToStart.length; j++) {
             var item = needsToStart[j];
-            log('i', item);
+            // log('i', item);
             var durr = item.duration;
             var froms = item.from;
             var tos = item.to;
