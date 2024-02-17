@@ -1,7 +1,7 @@
 const DMX = require('./api');
 const { log } = console;
 
-DMX.setLength(60);
+DMX.setLength(65);
 
 DMX.setColor(1, 2, 255, 255, 255);
 DMX.setColor(1, 9, 255, 255, 255);
