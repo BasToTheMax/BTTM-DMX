@@ -132,8 +132,8 @@ log('Last2', last);
 DMX.add(27_000, 1000, 1, 255, 0); // Stop when off
 DMX.add(27_000, 1000, 8, 255, 0); // Stop whem off
 
-DMX.setColor(27_000, 2, 255, 255, 255);
-DMX.setColor(27_000, 9, 255, 255, 255);
+DMX.setColorFade(27_000, 2, 25, 255, 255, 255);
+DMX.setColorFade(27_000, 9, 25, 255, 255, 255);
 
 DMX.add(28_000, 100, 1, 0, 255); // Stop when off
 DMX.add(28_000, 100, 8, 9, 255); // Stop whem off
