@@ -62,7 +62,7 @@ DMX.add(12_500, 50, 8, 0, 255);
 
 var last;
 
-for (let i = 0; i < 70; i++) {
+for (let i = 0; i < 140; i++) {
     // DMX.onOff(12_700 + (i*150), 50, 1);
     // DMX.onOff(12_700 + (i*150), 50, 8);
 
@@ -93,8 +93,8 @@ for (let i = 0; i < 70; i++) {
     last = 12_700 + (i*t);
 }
 
-DMX.add(28_000, 1000, 1, 255, 0); // Stop when off
-DMX.add(28_000, 1000, 8, 255, 0); // Stop whem off
+DMX.add(27_000, 1000, 1, 255, 0); // Stop when off
+DMX.add(27_000, 1000, 8, 255, 0); // Stop whem off
 
 log('Last', last);
 
