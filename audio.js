@@ -195,8 +195,8 @@ for (let i = 0; i < 100; i++) {
         r2 = 0;
      }
 
-    DMX.setColorFade(40_000 + (i*t), 2, 100,  l1,     0,     l2);
-    DMX.setColorFade(40_000 + (i*t), 9, 100,  r1,       0,     r2);
+    DMX.setColorFade(40_000 + (i*t), 2, 100,  l1,     l1,     l2);
+    DMX.setColorFade(40_000 + (i*t), 9, 100,  r1,       r1,     r2);
 
     last = 40_000 + (i*t);
 }
