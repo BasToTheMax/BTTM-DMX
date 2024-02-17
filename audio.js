@@ -69,8 +69,8 @@ for (let i = 0; i < 100; i++) {
     last = 12_700 + (i*150);
 }
 
-DMX.setColorFade(14_000, 2, 100,  255,     0,     0);
-DMX.setColorFade(14_000, 9, 100,  0,       0,     255);
+DMX.setColorFade(20_000, 2, 100,  255,     0,     0);
+DMX.setColorFade(20_000, 9, 100,  0,       0,     255);
 
 log('Last', last);
 
