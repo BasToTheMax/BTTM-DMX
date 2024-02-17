@@ -104,3 +104,4 @@ for(let i = 0; i <= length; i++) {currentTime
 }
 
 fs.writeFileSync(`./dmx/${id}.json`, JSON.stringify(newData));
+log('> Precompiled')

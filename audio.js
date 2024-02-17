@@ -1,4 +1,5 @@
 const DMX = require('./api');
+const { log } = console;
 
 DMX.setLength(60);
 
@@ -117,3 +118,4 @@ log('Last', last);
 
 
 DMX.export();
+log('> Exported')
