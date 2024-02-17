@@ -71,13 +71,19 @@ for (let i = 0; i < 75; i++) {
     var l1;
     var r1;
 
-    if (isEven(i)) l1 = 255; else l1 = 0;
-    if (isEven(i)) r1 = 0; else r1 = 255;
+    if (isEven(i)) {
+        l1 = 255;
+        l2 = 0;
 
-    var l2;
-    var r2;
-    if (isEven(i)) l2 = 0; else l2 = 255;
-    if (isEven(i)) r1 = 255; else r1 = 0;
+        r1 = 0;
+        r2 = 255;
+     } else {
+        l1 = 0;
+        l2 = 255;
+
+        r1 = 255;
+        r2 = 0;
+     }
 
     DMX.setColorFade(12_700 + (i*150), 2, 100,  l1,     0,     l2);
     DMX.setColorFade(12_700 + (i*150), 9, 100,  r1,       0,     r2);
