@@ -8,7 +8,7 @@ async function main() {
 
     var dmx = new DMX.DMX()
 
-    var driver = new DMX.EnttecOpenUSBDMXDriver(conf.path, { dmxSpeed: 40 });
+    var driver = new DMX.EnttecOpenUSBDMXDriver(conf.path, { dmxSpeed: 50 });
 
     var uni = await dmx.addUniverse('bttm', driver);
 
