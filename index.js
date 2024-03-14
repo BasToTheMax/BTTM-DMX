@@ -8,20 +8,20 @@ async function main() {
 
     var dmx = new DMX.DMX()
 
-    var driver = new DMX.EnttecOpenUSBDMXDriver(conf.path, { dmxSpeed: 50 });
+    var driver = new DMX.EnttecOpenUSBDMXDriver(conf.path, { dmxSpeed: 30 });
 
     var uni = await dmx.addUniverse('bttm', driver);
 
-    uni.update({
-        1: 255,
-        2: 100,
-        3: 0,
-        4: 255
-    });
+    // uni.update({
+    //     1: 255,
+    //     2: 100,
+    //     3: 0,
+    //     4: 255
+    // });
 
     setInterval(() => {
-        blink(uni, 1, 1000);
-    }, 2500);
+        blink(uni, 1, 250);
+    }, 1000);
 }
 
 function blink(uni, light, dur) {
