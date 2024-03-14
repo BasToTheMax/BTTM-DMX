@@ -8,7 +8,13 @@ async function main() {
 
     var dmx = new DMX.DMX()
 
-    var driver = new DMX.EnttecOpenUSBDMXDriver(conf.path, { dmxSpeed: 30 });
+    var driver;
+    console.log(process.cwd())    
+    if (process.cwd().toString().startsWith('/workspaces')) {
+        driver = new DMX.NullDriver();
+    } else {
+        driver = new DMX.EnttecOpenUSBDMXDriver(conf.path, { dmxSpeed: 30 });
+    }
 
     var uni = await dmx.addUniverse('bttm', driver);
 
@@ -18,7 +24,9 @@ async function main() {
         4: 235
     });
 
-    const ArtNet = require('artnode');
+    const ArtNet = require('artnode').ArtNet;
+
+    console.log(ArtNet);
  
     const artnet = new ArtNet({isController: true});
     
