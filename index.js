@@ -1,6 +1,6 @@
-async function main() {
-    const DMX = require('dmx-ts');
+const DMX = require('dmx-ts');
 
+async function main() {
     var conf = {
         port: 3000,
         path: '/dev/ttyUSB0'
