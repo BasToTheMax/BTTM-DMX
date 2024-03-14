@@ -20,7 +20,7 @@ async function main() {
     // });
 
     setInterval(() => {
-        blink(uni, 1, 250);
+        blink(uni, 1, 500);
     }, 1000);
 }
 
