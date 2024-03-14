@@ -38,7 +38,7 @@ async function main() {
 
             var toUp;
             toUp = {};
-            toUp[Number(address)+1] = value;
+            toUp[parseInt(address)+1] = value;
             uni.update(toUp);
 
             console.log(toUp);
