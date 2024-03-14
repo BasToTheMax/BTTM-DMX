@@ -43,7 +43,7 @@ async function main() {
         });
         
         data.forEach((value, address) => {
-            console.log(`DMX ${address} is ${value}`);
+            // console.log(`DMX ${address} is ${value}`);
         });
     });
     
