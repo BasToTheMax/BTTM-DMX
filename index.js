@@ -34,12 +34,14 @@ async function main() {
     
     universe.on('data', ({ data, changed }) => {
         changed.forEach(({ address, value }) => {
-            console.log(`DMX ${address} set to ${value}.`);
+            console.log(`DMX ${address+1} set to ${value}.`);
 
             var toUp;
             toUp = {};
-            toUp[address+1] = value;
+            toUp[Number(address)+1] = value;
             uni.update(toUp);
+
+            console.log(toUp);
         });
         
         data.forEach((value, address) => {
