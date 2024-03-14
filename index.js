@@ -28,10 +28,10 @@ function blink(uni, light, dur) {
     const ani = new DMX.Animation();
     uni.update({ 1: 0 })
     ani.add({
-        1: 255,
+        1: 0,
     }, dur);
     ani.add({
-        1: 0,
+        1: 255,
     }, dur);
 
     ani.run(uni);
