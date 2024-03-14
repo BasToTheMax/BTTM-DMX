@@ -19,16 +19,21 @@ async function main() {
         4: 255
     });
 
-    const animation = new DMX.Animation().add({
-        1: 255,
-      }, 500).add({
-        1: 0,
-      }, 500).runLoop(uni)
-      
-      
-      setTimeout(() => {
-        animation.stop()
-      }, 5000)
+    setInterval(() => {
+        blink(uni, 1, 1000);
+    }, 2500);
+}
+
+function blink(uni, light, dur) {
+    const ani = new DMX.Animation()
+    ani.add({
+        light: 255,
+    }, dur);
+    ani.add({
+        light: 0,
+    }, dur);
+
+    ani.run(uni);
 }
 
 main();
