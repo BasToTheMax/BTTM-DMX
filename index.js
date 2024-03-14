@@ -12,12 +12,11 @@ async function main() {
 
     var uni = await dmx.addUniverse('bttm', driver);
 
-    // uni.update({
-    //     1: 255,
-    //     2: 100,
-    //     3: 0,
-    //     4: 255
-    // });
+    uni.update({
+        2: 255,
+        3: 0,
+        4: 255
+    });
 
     setInterval(() => {
         blink(uni, 1, 500);
