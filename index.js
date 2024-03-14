@@ -13,9 +13,9 @@ async function main() {
     var uni = await dmx.addUniverse('bttm', driver);
 
     uni.update({
-        2: 255,
-        3: 0,
-        4: 255
+        2: 52,
+        3: 146,
+        4: 235
     });
 
     setInterval(() => {
