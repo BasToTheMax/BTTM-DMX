@@ -19,3 +19,5 @@ async function main() {
         4: 255
     })
 }
+
+main();
