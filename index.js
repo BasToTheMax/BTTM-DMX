@@ -17,7 +17,18 @@ async function main() {
         2: 100,
         3: 0,
         4: 255
-    })
+    });
+
+    const animation = new DMX.Animation().add({
+        1: 255,
+      }, 100).add({
+        1: 0,
+      }, 100).runLoop(uni)
+      
+      
+      setTimeout(() => {
+        animation.stop()
+      }, 5000)
 }
 
 main();
