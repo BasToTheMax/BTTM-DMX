@@ -20,7 +20,7 @@ async function main() {
 
     const ArtNet = require('artnode');
  
-    const artnet = new Artnet({isController: true});
+    const artnet = new ArtNet({isController: true});
     
     const universe = artnet.getUniverse(0);
     
