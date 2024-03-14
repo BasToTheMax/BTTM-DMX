@@ -37,7 +37,8 @@ async function main() {
             console.log(`DMX ${address} set to ${value}.`);
 
             var toUp;
-            toUp[address] = value;
+            toUp = {};
+            toUp[address+1] = value;
             uni.update(toUp);
         });
         
