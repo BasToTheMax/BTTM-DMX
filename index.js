@@ -21,9 +21,9 @@ async function main() {
 
     const animation = new DMX.Animation().add({
         1: 255,
-      }, 100).add({
+      }, 500).add({
         1: 0,
-      }, 100).runLoop(uni)
+      }, 500).runLoop(uni)
       
       
       setTimeout(() => {
