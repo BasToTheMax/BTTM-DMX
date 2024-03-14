@@ -13,9 +13,11 @@ async function main() {
     if (process.cwd().toString().startsWith('/workspaces')) {
         driver = new DMX.NullDriver();
     } else {
+        console.log('using serial')
         driver = new DMX.EnttecOpenUSBDMXDriver(conf.path, { dmxSpeed: 30 });
     }
 
+    console.log(typeof driver);
     var uni = await dmx.addUniverse('bttm', driver);
 
     uni.update({
