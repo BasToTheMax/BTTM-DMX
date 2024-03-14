@@ -27,10 +27,10 @@ async function main() {
 function blink(uni, light, dur) {
     const ani = new DMX.Animation()
     ani.add({
-        light: 255,
+        1: 255,
     }, dur);
     ani.add({
-        light: 0,
+        1: 0,
     }, dur);
 
     ani.run(uni);
